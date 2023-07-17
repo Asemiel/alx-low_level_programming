@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/** main - Prints a random number to the variable 
- * Return: Always 0 (success)
+/** main - this prints a random number to the variable. 
+ * Return: Always return 0 (success)
  */
 
 int main(void)
