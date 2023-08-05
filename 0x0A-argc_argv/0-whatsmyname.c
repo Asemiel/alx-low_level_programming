@@ -5,9 +5,9 @@
  * main - This prints the name of the program
  * @argc: Number of argument
  * @argv: Array of argument
- * Return: Always 0 (Success)
+ * Return: 0 for Success
  */
-int main(int argc __attribute__((unused)), char *argv[])
+int main(int argc, char *argv[])
 {
 		printf("%s\n", *argv);
 return (0);
