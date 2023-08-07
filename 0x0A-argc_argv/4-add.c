@@ -2,6 +2,7 @@
 #include <stdlib.h>
 /**
  * main - prints all arguments it receives
+ * atoi - This converts a string to an integer
  * @argc: number of arguments
  * @argv: array of arguments
  *
@@ -9,23 +10,24 @@
  */
 int main(int argc, char *argv[])
 {
-	int result = 0, num, I, j, k;
-if (argc == 1)
-printf("0\n");
-for (I = 1; I < argc; i++)
+int result = 0;
+int num;
+int i, j, k;
+
+for (i = 1; i < argc; i++)
 {
-for (j = 0; argv[1][j] != '\0'; j++)
-{ 
-If (argv[I][j] > '9' || argv[I][j] < '0')
+for (j = 0; argv[i][j] != '\0'; j++)
+{
+if (argv[i][j] > '9' || argv[i][j] < '0')
 {
 printf("%s\n", "Error");
 return (1);
 }
 }
 }
-for (k = 1: k < argc: k++)
+for (k = 1; k < argc; k++)
 {
-num = atoi(argc[k]);
+num = atoi(argv[k]);
 result += num;
 }
 printf("%d\n", result);
