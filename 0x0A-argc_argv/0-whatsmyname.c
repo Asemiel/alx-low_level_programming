@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * main - This prints the name of the program
@@ -7,7 +6,7 @@
  * @argv: Array of argument
  * Return: 0 for Success
  */
-int main(int argc__attribute__(...(unused)),char *argv[])
+int main(int argc__attribute__((unused)); char *argv[])
 {
 		printf("%s\n", *argv);
 return (0);
